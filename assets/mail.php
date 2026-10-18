@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
 
         //Recipients
-        $mail->setFrom('admin@aqlova.com', 'Bazaro HTML Form Contact');
+        $mail->setFrom('admin@aqlova.com', 'BooksNow HTML Form Contact');
         $mail->addAddress($recipient); // Admin inbox
         $mail->addReplyTo($email, $name); // User reply
 
